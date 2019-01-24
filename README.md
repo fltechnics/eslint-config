@@ -7,14 +7,14 @@ Eslint configuration.
 Install this package, and save it as a devDependency:
 
 ```
-yarn add eslint-config-fltechnics --dev
+yarn add @fltechnics/eslint-config --dev
 ```
 
 Then have your project's `.eslintrc` file extend the ruleset.
 
 ```json
 {
-    "extends": "fltechnics"
+    "extends": "@fltechnics/eslint-config"
 }
 ```
 

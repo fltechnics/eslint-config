@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-fltechnics",
+  "name": "@fltechnics/eslint-config",
   "version": "1.0.0",
   "description": "FL Technics ESLint config",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fltechnics/eslint-config-fltechnics"
+    "url": "git+https://github.com/fltechnics/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -18,9 +18,9 @@
   "author": "Darius Matulionis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fltechnics/eslint-config-fltechnics/issues"
+    "url": "https://github.com/fltechnics/eslint-config/issues"
   },
-  "homepage": "https://github.com/fltechnics/eslint-config-fltechnics",
+  "homepage": "https://github.com/fltechnics/eslint-config",
   "dependencies": {
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "10.*",
@@ -31,5 +31,8 @@
   },
   "devDependencies": {
     "eslint": "5.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
