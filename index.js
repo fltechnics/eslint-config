@@ -48,6 +48,14 @@ module.exports = {
     'space-infix-ops': 'error',
     'strict': ['error', 'never'],
     'vue/no-v-html': 'off',
+    "prettier/prettier": [
+      "error",
+      {
+        'singleQuote': true,
+        'semi': true,
+        'trailingComma': 'all',
+      }
+    ],
   },
 
   'overrides': [
