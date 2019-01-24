@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-fltechnics",
+  "version": "1.0.0",
+  "description": "FL Technics ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fltechnics/eslint-config-fltechnics"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "fltechnics",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Darius Matulionis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fltechnics/eslint-config-fltechnics/issues"
+  },
+  "homepage": "https://github.com/fltechnics/eslint-config-fltechnics",
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "10.*",
+    "eslint-plugin-vue": "5.*"
+  },
+  "peerDependencies": {
+    "eslint": "5.*"
+  },
+  "devDependencies": {
+    "eslint": "5.*"
+  }
+}
