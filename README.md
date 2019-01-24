@@ -18,14 +18,6 @@ Then have your project's `.eslintrc` file extend the ruleset.
 }
 ```
 
-If you're using Vue in your project, you'll need to extend the Vue extension of the configuration, and install the eslint Vue and html plugins:
-
-```json
-{
-    "extends": "fltechnics/vue"
-}
-```
-
 Also not forget to:
 
 ```
