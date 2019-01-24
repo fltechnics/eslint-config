@@ -7,7 +7,7 @@ Eslint configuration.
 Install this package, and save it as a devDependency:
 
 ```
-npm install --save-dev eslint-config-fltechnics
+yarn add eslint-config-fltechnics --dev
 ```
 
 Then have your project's `.eslintrc` file extend the ruleset.
