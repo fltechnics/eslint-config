@@ -57,7 +57,8 @@ module.exports = {
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'strict': ['error', 'never'],
-    'vue/no-v-html': 'off'
+    'vue/no-v-html': 'off',
+    "vue/prop-name-casing": ["error", "snake_case"],
   },
 
   'overrides': [
