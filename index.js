@@ -32,30 +32,32 @@ module.exports = {
     }],
     'keyword-spacing': 'error',
     'linebreak-style': ['error', 'unix'],
-    'prefer-const': 'error',
     'new-parens': 'error',
     'no-case-declarations': 'off',
     'no-const-assign': 'error',
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'no-unused-vars': ['error', { 'args': 'none' }],
+    'no-unused-vars': ['error', {
+      'args': 'none'
+    }],
     'no-whitespace-before-property': 'error',
     'object-curly-spacing': ['error', 'always'],
+    'prefer-const': 'error',
+    "prettier/prettier": ["error", {
+      'semi': true,
+      'singleQuote': true,
+      'trailingComma': 'all'
+    }],
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],
     'space-before-blocks': 'error',
-    'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never' }],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'always',
+      'named': 'never'
+    }],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'strict': ['error', 'never'],
-    'vue/no-v-html': 'off',
-    "prettier/prettier": [
-      "error",
-      {
-        'singleQuote': true,
-        'semi': true,
-        'trailingComma': 'all',
-      }
-    ],
+    'vue/no-v-html': 'off'
   },
 
   'overrides': [
